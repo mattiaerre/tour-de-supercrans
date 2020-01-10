@@ -1,24 +1,32 @@
 import React from 'react';
-import logo from './logo.svg';
+import Progress from 'react-progressbar';
 import './App.css';
+import getPercentage from './getPercentage';
 
 function App() {
+  const model = {
+    percentage: getPercentage({
+      end: '2020-03-31',
+      start: '2020-01-01',
+      today: Date.now()
+    }),
+    quarter: 'Q1',
+    year: '2020',
+    yearQuarter: () => `${model.year}/${model.quarter}`
+  };
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1 className="App-header">Progress Bar {model.yearQuarter()}</h1>
+      <p>
+        {model.yearQuarter()} is {model.percentage}% completed
+      </p>
+      <Progress
+        className="Progress"
+        color="orange"
+        completed={model.percentage}
+        height={20}
+      />
     </div>
   );
 }
