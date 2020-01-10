@@ -1,0 +1,20 @@
+.App {
+  align-items: center;
+  background-color: black;
+  color: lightgray;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.Progress {
+  background-color: lightgray;
+  max-width: 600px;
+  width: 75%;
+}
+
+h1,
+p {
+  text-align: center;
+}
