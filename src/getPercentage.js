@@ -1,8 +1,8 @@
 import moment from 'moment';
 
 function getPercentage(args) {
-  if (!args) {
-    return 0;
+  if (args === undefined) {
+    throw new Error('"args" cannot be "undefined"');
   }
 
   const end = moment(args.end);

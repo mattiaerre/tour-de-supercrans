@@ -55,6 +55,14 @@ describe('getPercentage', () => {
       },
       description: 'now',
       expected: 10
+    },
+    {
+      args: {
+        ...baseArgs,
+        today: '2020-01-14'
+      },
+      description: '14th',
+      expected: 14
     }
   ];
 
