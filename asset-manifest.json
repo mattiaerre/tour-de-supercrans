@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/tour-de-supercrans/static/css/main.75ce29b1.chunk.css",
-    "main.js": "/tour-de-supercrans/static/js/main.3b18c8ea.chunk.js",
-    "main.js.map": "/tour-de-supercrans/static/js/main.3b18c8ea.chunk.js.map",
+    "main.js": "/tour-de-supercrans/static/js/main.cc4acd52.chunk.js",
+    "main.js.map": "/tour-de-supercrans/static/js/main.cc4acd52.chunk.js.map",
     "runtime-main.js": "/tour-de-supercrans/static/js/runtime-main.a5473803.js",
     "runtime-main.js.map": "/tour-de-supercrans/static/js/runtime-main.a5473803.js.map",
-    "static/js/2.6ea04fc3.chunk.js": "/tour-de-supercrans/static/js/2.6ea04fc3.chunk.js",
-    "static/js/2.6ea04fc3.chunk.js.map": "/tour-de-supercrans/static/js/2.6ea04fc3.chunk.js.map",
+    "static/js/2.e757c34b.chunk.js": "/tour-de-supercrans/static/js/2.e757c34b.chunk.js",
+    "static/js/2.e757c34b.chunk.js.map": "/tour-de-supercrans/static/js/2.e757c34b.chunk.js.map",
     "index.html": "/tour-de-supercrans/index.html",
-    "precache-manifest.b89f299ce64fc3c5bf3dea06a148ffd5.js": "/tour-de-supercrans/precache-manifest.b89f299ce64fc3c5bf3dea06a148ffd5.js",
+    "precache-manifest.9fc9782ef6bb49e74cd5616ffcf2e16d.js": "/tour-de-supercrans/precache-manifest.9fc9782ef6bb49e74cd5616ffcf2e16d.js",
     "service-worker.js": "/tour-de-supercrans/service-worker.js",
     "static/css/main.75ce29b1.chunk.css.map": "/tour-de-supercrans/static/css/main.75ce29b1.chunk.css.map",
-    "static/js/2.6ea04fc3.chunk.js.LICENSE": "/tour-de-supercrans/static/js/2.6ea04fc3.chunk.js.LICENSE"
+    "static/js/2.e757c34b.chunk.js.LICENSE": "/tour-de-supercrans/static/js/2.e757c34b.chunk.js.LICENSE"
   },
   "entrypoints": [
     "static/js/runtime-main.a5473803.js",
-    "static/js/2.6ea04fc3.chunk.js",
+    "static/js/2.e757c34b.chunk.js",
     "static/css/main.75ce29b1.chunk.css",
-    "static/js/main.3b18c8ea.chunk.js"
+    "static/js/main.cc4acd52.chunk.js"
   ]
 }
