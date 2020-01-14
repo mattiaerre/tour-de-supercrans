@@ -1,5 +1,6 @@
 import React from 'react';
 import Progress from 'react-progressbar';
+import { version } from '../package.json';
 import './App.css';
 import getPercentage from './getPercentage';
 
@@ -16,7 +17,7 @@ function App() {
   };
 
   return (
-    <div className="App">
+    <div className="App" data-version={version}>
       <h1 className="App-header">Progress Bar {model.yearQuarter()}</h1>
       <p>
         {model.yearQuarter()} is {model.percentage}% completed
