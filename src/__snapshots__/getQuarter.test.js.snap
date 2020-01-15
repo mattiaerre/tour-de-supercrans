@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`getQuarter Q1 1`] = `
+Object {
+  "first": "2020-01-01",
+  "last": "2020-03-31",
+  "text": "Q1",
+  "year": 2020,
+}
+`;
+
+exports[`getQuarter Q2 1`] = `
+Object {
+  "first": "2020-04-01",
+  "last": "2020-06-30",
+  "text": "Q2",
+  "year": 2020,
+}
+`;
+
+exports[`getQuarter Q3 1`] = `
+Object {
+  "first": "2020-07-01",
+  "last": "2020-09-30",
+  "text": "Q3",
+  "year": 2020,
+}
+`;
+
+exports[`getQuarter Q4 1`] = `
+Object {
+  "first": "2020-10-01",
+  "last": "2020-12-31",
+  "text": "Q4",
+  "year": 2020,
+}
+`;

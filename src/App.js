@@ -3,17 +3,18 @@ import Progress from 'react-progressbar';
 import { version } from '../package.json';
 import './App.css';
 import getPercentage from './getPercentage';
+import getQuarter from './getQuarter';
 
 function App() {
+  const now = Date.now();
+  const quarter = getQuarter(now);
   const model = {
     percentage: getPercentage({
-      end: '2020-03-31',
-      start: '2020-01-01',
-      today: Date.now()
+      end: quarter.last,
+      start: quarter.first,
+      today: now
     }),
-    quarter: 'Q1',
-    year: '2020',
-    yearQuarter: () => `${model.year}/${model.quarter}`
+    yearQuarter: () => `${quarter.year}/${quarter.text}`
   };
 
   return (
