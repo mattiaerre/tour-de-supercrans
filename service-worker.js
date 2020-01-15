@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/tour-de-supercrans/precache-manifest.9fc9782ef6bb49e74cd5616ffcf2e16d.js"
+  "/tour-de-supercrans/precache-manifest.72cd47e088056259715c88c59f58a676.js"
 );
 
 self.addEventListener('message', (event) => {
