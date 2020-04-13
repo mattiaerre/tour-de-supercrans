@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div>
+  <div
+    class="App"
+    data-version="0.1.5"
+  >
+    <h1>
+      Progress Bar 
+      2020/Q2
+    </h1>
+    <p>
+      2020/Q2
+       is 
+      12
+      % completed
+    </p>
+    <div
+      class="Progress"
+    >
+      <div
+        class="progressbar-progress"
+        style="background-color: orange; width: 12%; transition: width 200ms; height: 20px;"
+      />
+    </div>
+    <p>
+      2020
+       is 
+      28
+      % completed
+    </p>
+    <div
+      class="Progress"
+    >
+      <div
+        class="progressbar-progress"
+        style="background-color: rgb(43, 96, 222); width: 28%; transition: width 200ms; height: 15px;"
+      />
+    </div>
+    <footer>
+      v
+      0.1.5
+    </footer>
+  </div>
+</div>
+`;

@@ -14,12 +14,18 @@ function App() {
       start: quarter.first,
       today: now
     }),
+    year: quarter.year,
+    yearPercentage: getPercentage({
+      end: `${quarter.year}-12-31`,
+      start: `${quarter.year}-01-01`,
+      today: now
+    }),
     yearQuarter: () => `${quarter.year}/${quarter.text}`
   };
 
   return (
     <div className="App" data-version={version}>
-      <h1 className="App-header">Progress Bar {model.yearQuarter()}</h1>
+      <h1>Progress Bar {model.yearQuarter()}</h1>
       <p>
         {model.yearQuarter()} is {model.percentage}% completed
       </p>
@@ -29,6 +35,16 @@ function App() {
         completed={model.percentage}
         height={20}
       />
+      <p>
+        {model.year} is {model.yearPercentage}% completed
+      </p>
+      <Progress
+        className="Progress"
+        color="#2B60DE"
+        completed={model.yearPercentage}
+        height={15}
+      />
+      <footer>v{version}</footer>
     </div>
   );
 }
