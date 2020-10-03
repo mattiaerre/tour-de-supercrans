@@ -39,9 +39,7 @@ function getQuarter(input) {
 
   const quarter = {
     first: moment(`${year}-${first}-01`).format('YYYY-MM-DD'),
-    last: moment(`${year}-${last}-15`)
-      .endOf('month')
-      .format('YYYY-MM-DD'),
+    last: moment(`${year}-${last}-15`).endOf('month').format('YYYY-MM-DD'),
     text,
     year
   };
