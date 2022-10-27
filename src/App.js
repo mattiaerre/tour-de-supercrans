@@ -1,14 +1,16 @@
 import React from 'react';
 import Progress from 'react-progressbar';
-import { version } from '../package.json';
 import './App.css';
 import getPercentage from './getPercentage';
 import getQuarter from './getQuarter';
+
+const version = '0.3.0';
 
 function App() {
   const now = Date.now();
   const quarter = getQuarter(now);
   const model = {
+    fiscalYearQuarter: () => `FY${(quarter.year += 1)}/${quarter.fiscalText}`,
     percentage: getPercentage({
       end: quarter.last,
       start: quarter.first,
@@ -32,6 +34,15 @@ function App() {
       <Progress
         className="Progress"
         color="orange"
+        completed={model.percentage}
+        height={20}
+      />
+      <p>
+        {model.fiscalYearQuarter()} is {model.percentage}% completed
+      </p>
+      <Progress
+        className="Progress"
+        color="red"
         completed={model.percentage}
         height={20}
       />

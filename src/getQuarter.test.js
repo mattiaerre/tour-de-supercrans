@@ -15,4 +15,18 @@ describe('getQuarter', () => {
       expect(quarter).toMatchSnapshot();
     });
   });
+
+  describe('Fiscal year', () => {
+    const scenarios = [
+      { day: '2022-10-26', description: 'FY2023/Q2', expected: 'Q2' }
+    ];
+
+    scenarios.forEach(({ day, description, expected }) => {
+      test(description, () => {
+        const quarter = getQuarter(day);
+        expect(quarter.fiscalText).toEqual(expected);
+        expect(quarter).toMatchSnapshot();
+      });
+    });
+  });
 });

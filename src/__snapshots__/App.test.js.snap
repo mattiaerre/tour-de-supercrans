@@ -4,16 +4,16 @@ exports[`matches snapshot 1`] = `
 <div>
   <div
     class="App"
-    data-version="0.1.6"
+    data-version="0.3.0"
   >
     <h1>
       Progress Bar 
-      2020/Q2
+      2022/Q4
     </h1>
     <p>
-      2020/Q2
+      2022/Q4
        is 
-      12
+      27
       % completed
     </p>
     <div
@@ -21,13 +21,13 @@ exports[`matches snapshot 1`] = `
     >
       <div
         class="progressbar-progress"
-        style="background-color: orange; width: 12%; transition: width 200ms; height: 20px;"
+        style="background-color: orange; width: 27%; transition: width 200ms; height: 20px;"
       />
     </div>
     <p>
-      2020
+      FY2023/Q2
        is 
-      28
+      27
       % completed
     </p>
     <div
@@ -35,12 +35,26 @@ exports[`matches snapshot 1`] = `
     >
       <div
         class="progressbar-progress"
-        style="background-color: rgb(43, 96, 222); width: 28%; transition: width 200ms; height: 15px;"
+        style="background-color: red; width: 27%; transition: width 200ms; height: 20px;"
+      />
+    </div>
+    <p>
+      2022
+       is 
+      82
+      % completed
+    </p>
+    <div
+      class="Progress"
+    >
+      <div
+        class="progressbar-progress"
+        style="background-color: rgb(43, 96, 222); width: 82%; transition: width 200ms; height: 15px;"
       />
     </div>
     <footer>
       v
-      0.1.6
+      0.3.0
     </footer>
   </div>
 </div>
