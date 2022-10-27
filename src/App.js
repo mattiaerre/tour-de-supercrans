@@ -1,11 +1,17 @@
+import { useEffect } from 'react';
 import Progress from 'react-progressbar';
 import './App.css';
 import getPercentage from './getPercentage';
 import getQuarter from './getQuarter';
+import initializeReactGA from './initializeReactGA';
 
 const version = '0.3.0';
 
 function App() {
+  useEffect(() => {
+    initializeReactGA();
+  }, []);
+
   const now = Date.now();
   const quarter = getQuarter(now);
   const model = {
