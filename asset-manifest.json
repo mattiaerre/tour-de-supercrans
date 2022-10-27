@@ -1,22 +1,13 @@
 {
   "files": {
-    "main.css": "/tour-de-supercrans/static/css/main.15b722aa.chunk.css",
-    "main.js": "/tour-de-supercrans/static/js/main.98df24ef.chunk.js",
-    "main.js.map": "/tour-de-supercrans/static/js/main.98df24ef.chunk.js.map",
-    "runtime-main.js": "/tour-de-supercrans/static/js/runtime-main.486e117f.js",
-    "runtime-main.js.map": "/tour-de-supercrans/static/js/runtime-main.486e117f.js.map",
-    "static/js/2.fcf5f9a0.chunk.js": "/tour-de-supercrans/static/js/2.fcf5f9a0.chunk.js",
-    "static/js/2.fcf5f9a0.chunk.js.map": "/tour-de-supercrans/static/js/2.fcf5f9a0.chunk.js.map",
+    "main.css": "/tour-de-supercrans/static/css/main.fb6028d0.css",
+    "main.js": "/tour-de-supercrans/static/js/main.f95f64d7.js",
     "index.html": "/tour-de-supercrans/index.html",
-    "precache-manifest.24352490578233cc53635fb88eab6014.js": "/tour-de-supercrans/precache-manifest.24352490578233cc53635fb88eab6014.js",
-    "service-worker.js": "/tour-de-supercrans/service-worker.js",
-    "static/css/main.15b722aa.chunk.css.map": "/tour-de-supercrans/static/css/main.15b722aa.chunk.css.map",
-    "static/js/2.fcf5f9a0.chunk.js.LICENSE.txt": "/tour-de-supercrans/static/js/2.fcf5f9a0.chunk.js.LICENSE.txt"
+    "main.fb6028d0.css.map": "/tour-de-supercrans/static/css/main.fb6028d0.css.map",
+    "main.f95f64d7.js.map": "/tour-de-supercrans/static/js/main.f95f64d7.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.486e117f.js",
-    "static/js/2.fcf5f9a0.chunk.js",
-    "static/css/main.15b722aa.chunk.css",
-    "static/js/main.98df24ef.chunk.js"
+    "static/css/main.fb6028d0.css",
+    "static/js/main.f95f64d7.js"
   ]
 }
