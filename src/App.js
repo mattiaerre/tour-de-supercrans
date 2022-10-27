@@ -1,4 +1,3 @@
-import React from 'react';
 import Progress from 'react-progressbar';
 import './App.css';
 import getPercentage from './getPercentage';
@@ -42,9 +41,9 @@ function App() {
       </p>
       <Progress
         className="Progress"
-        color="red"
+        color="orange"
         completed={model.percentage}
-        height={20}
+        height={15}
       />
       <p>
         {model.year} is {model.yearPercentage}% completed
