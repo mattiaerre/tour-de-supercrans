@@ -1,8 +1,19 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`getQuarter Fiscal year FY2023/Q2 1`] = `
+Object {
+  "first": "2022-10-01",
+  "fiscalText": "Q2",
+  "last": "2022-12-31",
+  "text": "Q4",
+  "year": 2022,
+}
+`;
+
 exports[`getQuarter Q1 1`] = `
 Object {
   "first": "2020-01-01",
+  "fiscalText": "Q3",
   "last": "2020-03-31",
   "text": "Q1",
   "year": 2020,
@@ -12,6 +23,7 @@ Object {
 exports[`getQuarter Q2 1`] = `
 Object {
   "first": "2020-04-01",
+  "fiscalText": "Q4",
   "last": "2020-06-30",
   "text": "Q2",
   "year": 2020,
@@ -21,6 +33,7 @@ Object {
 exports[`getQuarter Q3 1`] = `
 Object {
   "first": "2020-07-01",
+  "fiscalText": "Q1",
   "last": "2020-09-30",
   "text": "Q3",
   "year": 2020,
@@ -30,6 +43,7 @@ Object {
 exports[`getQuarter Q4 1`] = `
 Object {
   "first": "2020-10-01",
+  "fiscalText": "Q2",
   "last": "2020-12-31",
   "text": "Q4",
   "year": 2020,

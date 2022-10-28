@@ -1,14 +1,21 @@
-import React from 'react';
+import { useEffect } from 'react';
 import Progress from 'react-progressbar';
-import { version } from '../package.json';
 import './App.css';
 import getPercentage from './getPercentage';
 import getQuarter from './getQuarter';
+import initializeReactGA from './initializeReactGA';
+
+const version = '0.3.0';
 
 function App() {
+  useEffect(() => {
+    initializeReactGA();
+  }, []);
+
   const now = Date.now();
   const quarter = getQuarter(now);
   const model = {
+    fiscalYearQuarter: () => `FY${(quarter.year += 1)}/${quarter.fiscalText}`,
     percentage: getPercentage({
       end: quarter.last,
       start: quarter.first,
@@ -34,6 +41,15 @@ function App() {
         color="orange"
         completed={model.percentage}
         height={20}
+      />
+      <p>
+        {model.fiscalYearQuarter()} is {model.percentage}% completed
+      </p>
+      <Progress
+        className="Progress"
+        color="orange"
+        completed={model.percentage}
+        height={15}
       />
       <p>
         {model.year} is {model.yearPercentage}% completed
