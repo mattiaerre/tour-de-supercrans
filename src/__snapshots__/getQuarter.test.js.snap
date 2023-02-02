@@ -44,6 +44,17 @@ Object {
 }
 `;
 
+exports[`getQuarter Q2 2`] = `
+Object {
+  "first": "2023-04-01",
+  "fiscalText": "Q4",
+  "fiscalYear": 2023,
+  "last": "2023-06-30",
+  "text": "Q2",
+  "year": 2023,
+}
+`;
+
 exports[`getQuarter Q3 1`] = `
 Object {
   "first": "2020-07-01",
@@ -52,6 +63,28 @@ Object {
   "last": "2020-09-30",
   "text": "Q3",
   "year": 2020,
+}
+`;
+
+exports[`getQuarter Q3 2`] = `
+Object {
+  "first": "2023-07-01",
+  "fiscalText": "Q1",
+  "fiscalYear": 2024,
+  "last": "2023-09-30",
+  "text": "Q3",
+  "year": 2023,
+}
+`;
+
+exports[`getQuarter Q3 3`] = `
+Object {
+  "first": "2023-07-01",
+  "fiscalText": "Q1",
+  "fiscalYear": 2024,
+  "last": "2023-09-30",
+  "text": "Q3",
+  "year": 2023,
 }
 `;
 
