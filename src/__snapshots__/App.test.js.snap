@@ -4,7 +4,7 @@ exports[`matches snapshot 1`] = `
 <div>
   <div
     class="App"
-    data-version="0.4.0"
+    data-version="0.4.1"
   >
     <h1>
       Progress Bar 
@@ -54,7 +54,7 @@ exports[`matches snapshot 1`] = `
     </div>
     <footer>
       v
-      0.4.0
+      0.4.1
     </footer>
   </div>
 </div>

@@ -5,7 +5,7 @@ import getPercentage from './getPercentage';
 import getQuarter from './getQuarter';
 import initializeReactGA from './initializeReactGA';
 
-const version = '0.4.0';
+const version = '0.4.1';
 
 function App() {
   useEffect(() => {
