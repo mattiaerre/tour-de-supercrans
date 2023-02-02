@@ -15,12 +15,13 @@
     "react-scripts": "^5.0.1"
   },
   "scripts": {
-    "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "deploy": "gh-pages -d build",
     "eject": "react-scripts eject",
     "predeploy": "yarn build",
-    "deploy": "gh-pages -d build"
+    "start": "react-scripts start",
+    "test": "react-scripts test",
+    "test:all": "yarn test --coverage --watchAll=false"
   },
   "eslintConfig": {
     "extends": "react-app"
