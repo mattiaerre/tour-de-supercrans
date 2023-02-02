@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/tour-de-supercrans/static/css/main.fb6028d0.css",
-    "main.js": "/tour-de-supercrans/static/js/main.b4f567c7.js",
+    "main.js": "/tour-de-supercrans/static/js/main.da9e1b7f.js",
     "index.html": "/tour-de-supercrans/index.html",
     "main.fb6028d0.css.map": "/tour-de-supercrans/static/css/main.fb6028d0.css.map",
-    "main.b4f567c7.js.map": "/tour-de-supercrans/static/js/main.b4f567c7.js.map"
+    "main.da9e1b7f.js.map": "/tour-de-supercrans/static/js/main.da9e1b7f.js.map"
   },
   "entrypoints": [
     "static/css/main.fb6028d0.css",
-    "static/js/main.b4f567c7.js"
+    "static/js/main.da9e1b7f.js"
   ]
 }
