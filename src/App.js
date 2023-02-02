@@ -5,7 +5,7 @@ import getPercentage from './getPercentage';
 import getQuarter from './getQuarter';
 import initializeReactGA from './initializeReactGA';
 
-const version = '0.3.0';
+const version = '0.4.1';
 
 function App() {
   useEffect(() => {
@@ -15,7 +15,7 @@ function App() {
   const now = Date.now();
   const quarter = getQuarter(now);
   const model = {
-    fiscalYearQuarter: () => `FY${(quarter.year += 1)}/${quarter.fiscalText}`,
+    fiscalYearQuarter: () => `FY${quarter.fiscalYear}/${quarter.fiscalText}`,
     percentage: getPercentage({
       end: quarter.last,
       start: quarter.first,
