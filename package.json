@@ -43,6 +43,7 @@
     "collectCoverageFrom": [
       "src/**/*.js",
       "!src/index.js",
+      "!src/initializeReactGA.js",
       "!src/serviceWorker.js"
     ]
   }
