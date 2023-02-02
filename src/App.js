@@ -15,7 +15,7 @@ function App() {
   const now = Date.now();
   const quarter = getQuarter(now);
   const model = {
-    fiscalYearQuarter: () => `FY${(quarter.year += 1)}/${quarter.fiscalText}`,
+    fiscalYearQuarter: () => `FY${quarter.fiscalYear}/${quarter.fiscalText}`,
     percentage: getPercentage({
       end: quarter.last,
       start: quarter.first,

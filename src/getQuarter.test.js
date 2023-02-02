@@ -18,13 +18,23 @@ describe('getQuarter', () => {
 
   describe('Fiscal year', () => {
     const scenarios = [
-      { day: '2022-10-26', description: 'FY2023/Q2', expected: 'Q2' }
+      {
+        day: '2022-10-26',
+        description: 'FY2023/Q2',
+        expected: { text: 'Q2', year: 2023 }
+      },
+      {
+        day: '2023-02-02',
+        description: 'FY2023/Q3',
+        expected: { text: 'Q3', year: 2023 }
+      }
     ];
 
     scenarios.forEach(({ day, description, expected }) => {
       test(description, () => {
         const quarter = getQuarter(day);
-        expect(quarter.fiscalText).toEqual(expected);
+        expect(quarter.fiscalText).toEqual(expected.text);
+        expect(quarter.fiscalYear).toEqual(expected.year);
         expect(quarter).toMatchSnapshot();
       });
     });
