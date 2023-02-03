@@ -4,7 +4,7 @@ exports[`matches snapshot 1`] = `
 <div>
   <div
     class="App"
-    data-version="0.5.0"
+    data-version="0.6.0"
   >
     <h1>
       Progress Bar 
@@ -13,7 +13,7 @@ exports[`matches snapshot 1`] = `
     <p>
       2023/Q1
        is 
-      36
+      37
       % completed
     </p>
     <div
@@ -21,13 +21,13 @@ exports[`matches snapshot 1`] = `
     >
       <div
         class="progressbar-progress"
-        style="background-color: orange; width: 36%; transition: width 200ms; height: 20px;"
+        style="background-color: orange; width: 37%; transition: width 200ms; height: 20px;"
       />
     </div>
     <p>
       FY2023/Q3
        is 
-      36
+      37
       % completed
     </p>
     <div
@@ -35,7 +35,7 @@ exports[`matches snapshot 1`] = `
     >
       <div
         class="progressbar-progress"
-        style="background-color: orange; width: 36%; transition: width 200ms; height: 15px;"
+        style="background-color: orange; width: 37%; transition: width 200ms; height: 15px;"
       />
     </div>
     <p>
@@ -53,8 +53,8 @@ exports[`matches snapshot 1`] = `
       />
     </div>
     <footer>
-      v
-      0.5.0
+      tour-de-supercrans v
+      0.6.0
     </footer>
   </div>
 </div>
