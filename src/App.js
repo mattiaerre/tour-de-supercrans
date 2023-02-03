@@ -5,7 +5,7 @@ import getPercentage from './getPercentage';
 import getQuarter from './getQuarter';
 import initializeReactGA from './initializeReactGA';
 
-const version = '0.5.0';
+const version = '0.6.0';
 
 function App() {
   useEffect(() => {
@@ -60,7 +60,7 @@ function App() {
         completed={model.yearPercentage}
         height={15}
       />
-      <footer>v{version}</footer>
+      <footer>tour-de-supercrans v{version}</footer>
     </div>
   );
 }
