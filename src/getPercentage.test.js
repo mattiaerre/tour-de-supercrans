@@ -73,3 +73,9 @@ describe('getPercentage', () => {
     });
   });
 });
+
+test('getPercentage to throw', () => {
+  expect(() => {
+    getPercentage();
+  }).toThrow();
+});
